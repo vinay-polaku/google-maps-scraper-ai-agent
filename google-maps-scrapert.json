@@ -1,5 +1,5 @@
 {
-  "name": "My workflow 5102344",
+  "name": "Google Maps Scraper AI Agent",
   "nodes": [
     {
       "parameters": {
@@ -11,9 +11,7 @@
         0,
         0
       ],
-      "id": "90f177b9-8f1a-4951-b90a-83608e81c343",
-      "name": "When chat message received",
-      "webhookId": "2f66affc-f398-45c4-b799-c51b3ab203b5"
+      "name": "When chat message received"
     },
     {
       "parameters": {
@@ -25,7 +23,6 @@
         240,
         0
       ],
-      "id": "59b10481-988b-45aa-8587-9c54aa24b6f7",
       "name": "AI Agent"
     },
     {
@@ -39,14 +36,7 @@
         112,
         208
       ],
-      "id": "1c4c9654-10c1-46a7-a9dd-d625280dbe33",
-      "name": "OpenRouter Chat Model",
-      "credentials": {
-        "openRouterApi": {
-          "id": "Q3pJaZ0fFEIRUY9C",
-          "name": "OpenRouter account 3052165"
-        }
-      }
+      "name": "OpenRouter Chat Model"
     },
     {
       "parameters": {},
@@ -56,7 +46,6 @@
         256,
         208
       ],
-      "id": "50daeaa2-03f4-48b2-9cab-34095c2eed44",
       "name": "Simple Memory"
     },
     {
@@ -72,31 +61,22 @@
         432,
         208
       ],
-      "id": "9655e75f-e46f-4830-826e-12628fc30f54",
-      "name": "/search in Firecrawl",
-      "credentials": {
-        "firecrawlApi": {
-          "id": "rnKdZMkSeM8qflz3",
-          "name": "Firecrawl account 17"
-        }
-      }
+      "name": "/search in Firecrawl"
     },
     {
       "parameters": {
         "operation": "append",
         "documentId": {
           "__rl": true,
-          "value": "10dXi91yiB5md7AZe8zgypRPNg60IR214ZR_Yvz1JvIg",
+          "value": "YOUR_GOOGLE_SHEET_ID",
           "mode": "list",
-          "cachedResultName": "Copy of 20260704 - Google Maps Scraper",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/10dXi91yiB5md7AZe8zgypRPNg60IR214ZR_Yvz1JvIg/edit?usp=drivesdk"
+          "cachedResultName": "Your Google Sheet"
         },
         "sheetName": {
           "__rl": true,
           "value": "gid=0",
           "mode": "list",
-          "cachedResultName": "Sheet1",
-          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/10dXi91yiB5md7AZe8zgypRPNg60IR214ZR_Yvz1JvIg/edit#gid=0"
+          "cachedResultName": "Sheet1"
         },
         "columns": {
           "mappingMode": "defineBelow",
@@ -166,14 +146,7 @@
         576,
         208
       ],
-      "id": "9cb1b7e4-7502-4589-8db0-46b14c93031f",
-      "name": "Append row in sheet in Google Sheets",
-      "credentials": {
-        "googleSheetsOAuth2Api": {
-          "id": "prJCP0T6LLHIfZ6a",
-          "name": "VP - Google Sheets account 324200185"
-        }
-      }
+      "name": "Append row in sheet in Google Sheets"
     }
   ],
   "pinData": {},
@@ -240,12 +213,5 @@
     "binaryMode": "separate",
     "availableInMCP": false
   },
-  "versionId": "40ca708d-2937-4a84-adab-396b552285e5",
-  "meta": {
-    "templateCredsSetupCompleted": true,
-    "instanceId": "966c9717c649ff58138114ad4ec0792ba6c6dbbaefbc75a95d7e5ed34f041958"
-  },
-  "nodeGroups": [],
-  "id": "AmBxduIzL7ciu0Nc",
   "tags": []
 }
